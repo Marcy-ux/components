@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Formulář</h2>
+    <label for="name">Jméno a příjmení:</label>
+    <input type="text" placeholder="Např. Jan Novák" id="name" />
+    <br />
+    <br />
+    Pokud si přejete pokračovat, musíte souhlasit se Smluvními podmínkami:<input
+      type="checkbox"
+      name=""
+      id="checkbox"
+      checked
+    />
+    Souhlasím
+    <label for="checkbox"></label>
+    <br />
+    <br />
+    Jaké máte pohlaví?
+    <input type="radio" name="pohlaví" id="muz" />
+    <label for="muz">Muž</label>
+    <input type="radio" name="pohlaví" id="zena" />
+    <label for="zena">Žena</label>
+    <br />
+    <br />
+    <label for="comment">Váš komentář</label>
+    <br />
+    <textarea
+      name="komentář"
+      id="comment"
+      cols="30"
+      rows="10"
+      placeholder="Zanechte nám prosím komentář."
+      padding="20px"
+    ></textarea>
+    <br />
+    <br />
+    Přejete si objednat zboží?
+    <button type="button">Objednat</button>
+    <br />
+    <br />
+    Vyberte si prosím počet produktů:
+    <select name="" id="">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </body>
+</html>
